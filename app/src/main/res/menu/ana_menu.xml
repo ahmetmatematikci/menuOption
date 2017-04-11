@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/mnuFile"
+        android:title="@string/strFile"
+        app:showAsAction="always"
+        android:onClick="mnuFile_Click"
+        />
+
+    <item
+        android:id="@+id/mnuEdit"
+        android:title="@string/strEdit"
+        app:showAsAction="always"
+        android:onClick="mnuEdit_Click"
+        />
+
+    <item
+        android:id="@+id/mnuRun"
+        android:title="@string/strRun"
+        app:showAsAction="always"
+        android:onClick="mnuRun_Click"
+        />
+
+    <item
+        android:id="@+id/mnuHelp"
+        android:title="@string/strHelp"
+        app:showAsAction="never"
+        android:onClick="mnuHelp_Click"
+        />
+</menu>

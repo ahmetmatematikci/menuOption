@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MenuSample</string>
+    <string name="strFile">Dosya</string>
+    <string name="strEdit">Düzen</string>
+    <string name="strRun">Çalıştır</string>
+    <string name="strHelp">Yardım</string>
+</resources>
